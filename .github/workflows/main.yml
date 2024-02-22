@@ -1,0 +1,2 @@
+name: CICD for serverless application
+run-name: ${{ github.actor }} is doing CICD for service application

@@ -1,6 +1,18 @@
 service: zhangqin-sls-22-feb
-framworkVersion: 3
+frameworkVersion: '3'
 
 provider:
   name: aws
   runtime: nodejs18.x
+  region: ap-southeast-1
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi:
+          path: /zhangqin
+          method: post
+
+plugins:
+  - serverless-offline

@@ -1,24 +1,5 @@
-// {
-//   "name": "zhangqin-sls-22-feb",
-//   "version": "1.0.0",
-//   "description": "For serverless class on 22 Feb",
-//   "main": "index.js",
-//   "scripts": {
-//     "test": "jest"
-//   },
-//   "author": "",
-//   "license": "ISC",
-//   "dependencies": {
-//     "serverless": "^3.38.0"
-//   },
-//   "devDependencies": {
-//     "jest": "^29.7.0",
-//     "serverless-offline": "^13.3.3"
-//   }
-// }
-
 {
-  "name": "zhangqin-sls-22-feb",
+"name": "zhangqin-sls-22-feb",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

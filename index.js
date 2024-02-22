@@ -3,8 +3,7 @@ module.exports.handler = async (event) => {
       statusCode: 200,
       body: JSON.stringify(
         {
-          message: "This is our https response,Go Serverless v3.0! Your function executed successfully!",
-          input: event,
+          message: "THIS IS OUR HTTP RESPONSE",
         },
         null,
         2
